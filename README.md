@@ -1,11 +1,7 @@
 # whoisit
 Performs mass lookups of IPs and WHOIS records.  Will cache if lookup has happened within defined period of time and skip, and will also intelligently store whois data for network ranges and use that data to populate whois info, instead of looking up the same space for a new IP address.
 
-Input file is just a list of IP addresses, for example:
-
-1.2.3.4
-10.10.10.10
-8.8.8.8
+Input file is just a list of IP addresses.
 
 | Argument      | Description                                                    |
 | ------------- | -------------------------------------------------------------- |
